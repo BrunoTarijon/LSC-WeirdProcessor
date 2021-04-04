@@ -1,0 +1,346 @@
+WARNING: ./Rom.v:13: $readmemb(rom_instructions_file.txt): Not enough words in the file for the requested range [0:255].
+VCD info: dumpfile processor_out.vcd opened for output.
+ clk = 0 pc =   x
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          x
+ ram_pw1 = x reg_write_data =          x 
+ reg1 =  x, reg2 =  x reg3=   x
+ reg_data1 =          x reg_data2 =          x
+ ram_read_data1 =          x
+
+ clk = 1 pc =   0
+ ins = 00000100001000000000000000001010
+ alu_result =         10
+ ram_pw1 = 0 reg_write_data =         10 
+ reg1 =  1, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =          x
+
+ clk = 0 pc =   0
+ ins = 00000100001000000000000000001010
+ alu_result =         10
+ ram_pw1 = 0 reg_write_data =         10 
+ reg1 =  1, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =          x
+
+ clk = 1 pc =   1
+ ins = 00000100010000000000000000000000
+ alu_result =          0
+ ram_pw1 = 0 reg_write_data =          0 
+ reg1 =  2, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =          x
+
+ clk = 0 pc =   1
+ ins = 00000100010000000000000000000000
+ alu_result =          0
+ ram_pw1 = 0 reg_write_data =          0 
+ reg1 =  2, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =          x
+
+ clk = 1 pc =   2
+ ins = 11001000000000100000100000000000
+ alu_result =         10
+ ram_pw1 = 1 reg_write_data =          0 
+ reg1 =  0, reg2 =  2 reg3=   1
+ reg_data1 =          0 reg_data2 =         10
+ ram_read_data1 =          x
+
+ clk = 0 pc =   2
+ ins = 11001000000000100000100000000000
+ alu_result =         10
+ ram_pw1 = 1 reg_write_data =          0 
+ reg1 =  0, reg2 =  2 reg3=   1
+ reg_data1 =          0 reg_data2 =         10
+ ram_read_data1 =         10
+
+ clk = 1 pc =   3
+ ins = 11000000011000100000000000000000
+ alu_result =          0
+ ram_pw1 = 0 reg_write_data =         10 
+ reg1 =  3, reg2 =  2 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =   3
+ ins = 11000000011000100000000000000000
+ alu_result =          0
+ ram_pw1 = 0 reg_write_data =         10 
+ reg1 =  3, reg2 =  2 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =   4
+ ins = 00000100011000110000000000000001
+ alu_result =         11
+ ram_pw1 = 0 reg_write_data =         11 
+ reg1 =  3, reg2 =  3 reg3=   0
+ reg_data1 =         10 reg_data2 =          0
+ ram_read_data1 =          x
+
+ clk = 0 pc =   4
+ ins = 00000100011000110000000000000001
+ alu_result =         12
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  3, reg2 =  3 reg3=   0
+ reg_data1 =         11 reg_data2 =          0
+ ram_read_data1 =          x
+
+ clk = 1 pc =   5
+ ins = 10000000000000000000000000000000
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =   5
+ ins = 10000000000000000000000000000000
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =   6
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =   6
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =   7
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =   7
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =   8
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =   8
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =   9
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =   9
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  10
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  10
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  11
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  11
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  12
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  12
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  13
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  13
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  14
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  14
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  15
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  15
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  16
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  16
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  17
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  17
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  18
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  18
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  19
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  19
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 1 pc =  20
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+
+ clk = 0 pc =  20
+ ins = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ alu_result =          1
+ ram_pw1 = 0 reg_write_data =         12 
+ reg1 =  0, reg2 =  0 reg3=   0
+ reg_data1 =          0 reg_data2 =          0
+ ram_read_data1 =         10
+

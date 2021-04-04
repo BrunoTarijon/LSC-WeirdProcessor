@@ -1,0 +1,137 @@
+WARNING: ./Rom.v:13: $readmemb(rom_instructions_file.txt): Not enough words in the file for the requested range [0:255].
+VCD info: dumpfile processor_out.vcd opened for output.
+clk = 0 instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ pc =   x next_addr =  x 
+ alu_result =          x 
+ reg1 = x , reg2=  x , reg3 =  x 
+ reg_data1 =          x reg_data2=          x 
+ immediate =        x 
+ reg_pw = x reg_write_data =          x num_op_code = x 
+___
+
+clk = 1 instruction = 00000100001000000000000000000001 
+ pc =   0 next_addr =  x 
+ alu_result =          1 
+ reg1 = 1 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        1 
+ reg_pw = 1 reg_write_data =          1 num_op_code = 1 
+___
+
+clk = 0 instruction = 00000100001000000000000000000001 
+ pc =   0 next_addr =  1 
+ alu_result =          1 
+ reg1 = 1 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        1 
+ reg_pw = 1 reg_write_data =          1 num_op_code = 1 
+___
+
+clk = 1 instruction = 00000100010000000000000000000010 
+ pc =   1 next_addr =  1 
+ alu_result =          2 
+ reg1 = 2 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        2 
+ reg_pw = 1 reg_write_data =          2 num_op_code = 1 
+___
+
+clk = 0 instruction = 00000100010000000000000000000010 
+ pc =   1 next_addr =  2 
+ alu_result =          2 
+ reg1 = 2 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        2 
+ reg_pw = 1 reg_write_data =          2 num_op_code = 1 
+___
+
+clk = 1 instruction = 00000000011000010001000000000000 
+ pc =   2 next_addr =  2 
+ alu_result =          3 
+ reg1 = 3 , reg2=  1 , reg3 =  2 
+ reg_data1 =          1 reg_data2=          2 
+ immediate =     4096 
+ reg_pw = 1 reg_write_data =          3 num_op_code = 0 
+___
+
+clk = 0 instruction = 00000000011000010001000000000000 
+ pc =   2 next_addr =  3 
+ alu_result =          3 
+ reg1 = 3 , reg2=  1 , reg3 =  2 
+ reg_data1 =          1 reg_data2=          2 
+ immediate =     4096 
+ reg_pw = 1 reg_write_data =          3 num_op_code = 0 
+___
+
+clk = 1 instruction = 00000100001000000000000000000000 
+ pc =   3 next_addr =  3 
+ alu_result =          0 
+ reg1 = 1 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        0 
+ reg_pw = 1 reg_write_data =          0 num_op_code = 1 
+___
+
+clk = 0 instruction = 00000100001000000000000000000000 
+ pc =   3 next_addr =  4 
+ alu_result =          0 
+ reg1 = 1 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        0 
+ reg_pw = 1 reg_write_data =          0 num_op_code = 1 
+___
+
+clk = 1 instruction = 00000100010000000000000000000001 
+ pc =   4 next_addr =  4 
+ alu_result =          1 
+ reg1 = 2 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        1 
+ reg_pw = 1 reg_write_data =          1 num_op_code = 1 
+___
+
+clk = 0 instruction = 00000100010000000000000000000001 
+ pc =   4 next_addr =  5 
+ alu_result =          1 
+ reg1 = 2 , reg2=  0 , reg3 =  0 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =        1 
+ reg_pw = 1 reg_write_data =          1 num_op_code = 1 
+___
+
+clk = 1 instruction = 00010000011000010001000000000000 
+ pc =   5 next_addr =  5 
+ alu_result =          1 
+ reg1 = 3 , reg2=  1 , reg3 =  2 
+ reg_data1 =          0 reg_data2=          1 
+ immediate =     4096 
+ reg_pw = 1 reg_write_data =          1 num_op_code = 0 
+___
+
+clk = 0 instruction = 00010000011000010001000000000000 
+ pc =   5 next_addr =  6 
+ alu_result =          1 
+ reg1 = 3 , reg2=  1 , reg3 =  2 
+ reg_data1 =          0 reg_data2=          1 
+ immediate =     4096 
+ reg_pw = 1 reg_write_data =          1 num_op_code = 0 
+___
+
+clk = 1 instruction = 00011000100000010011000000000000 
+ pc =   6 next_addr =  6 
+ alu_result =          0 
+ reg1 = 4 , reg2=  1 , reg3 =  6 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =    12288 
+ reg_pw = 1 reg_write_data =          0 num_op_code = 0 
+___
+
+clk = 0 instruction = 00011000100000010011000000000000 
+ pc =   6 next_addr =  7 
+ alu_result =          0 
+ reg1 = 4 , reg2=  1 , reg3 =  6 
+ reg_data1 =          0 reg_data2=          0 
+ immediate =    12288 
+ reg_pw = 1 reg_write_data =          0 num_op_code = 0 
+___
+
